@@ -35,13 +35,13 @@ function createLabel(str) {
 
     // the stylesheet classes (lowercase, etc.) should have distinguishable colors for readability
     if (lowercase.includes(char)) {
-      output += "<span class='lowercase'>" + char + "</span>";
+      output += "<span class=\"lowercase\">" + char + "</span>";
     } else if (uppercase.includes(char)) {
-      output += "<span class='uppercase'>" + char + "</span>";
+      output += "<span class=\"uppercase\">" + char + "</span>";
     } else if (numbers.includes(char)) {
-      output += "<span class='number'>" + char + "</span>";
+      output += "<span class=\"number\">" + char + "</span>";
     } else if (punctuation.includes(char)) {
-      output += "<span class='punctuation'>" + char + "</span>";
+      output += "<span class=\"punctuation\">" + char + "</span>";
     }
   }
   return output;
