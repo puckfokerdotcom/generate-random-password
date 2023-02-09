@@ -1,4 +1,4 @@
-# Random Password Generator
+# Generate Random Password
 
 # Features
 
